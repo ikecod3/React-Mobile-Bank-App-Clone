@@ -13,10 +13,10 @@ const Account = () => {
         {/* main wrapper div start here */}
 
         {/* account number */}
-        <div className="space-y-5">
+        <div className="space-y-3 sm:space-y-5">
           <div className="flex items-center justify-between">
             <p></p>
-            <p className="text-2xl">
+            <p className="text-lg sm:text-2xl">
               Account:
               <span className="tracking-[5px] font-bold"> 1234567890</span>
             </p>
@@ -27,8 +27,8 @@ const Account = () => {
           {/* hidden amount */}
           <div className=" flex items-center justify-between">
             <p></p>
-            <p className="font-extrabold text-2xl">
-              NGN <span className="align-middle">*******</span>
+            <p className="font-extrabold text:xl sm:text-2xl mx-4">
+              NGN <span className="align-middle tracking-[8px]">********</span>
             </p>
             <p className="flex">
               <Button>

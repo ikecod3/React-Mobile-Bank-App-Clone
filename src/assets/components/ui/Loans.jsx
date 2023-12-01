@@ -5,6 +5,7 @@ const Loans = () => {
     <div>
       <CardWrapper headingText={"Loans"}>
         <img
+          className="h-24 sm:h-full"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX67LFvHP6rmfNXtgkwJYsqoSMS1ID7lJnV9D3gC8JGrnkBEHjCmzQ6mYJnYbJNZ17Ba4&usqp=CAU"
           alt="Quick Loans photo"
         />
